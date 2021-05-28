@@ -91,7 +91,7 @@ if ($.isNode()) {
     }
   }
   let res = [], res2 = [];
-  if (new Date().getUTCHours() + 8 >= 17) {
+  if (new Date().getUTCHours() + 8 >= 12) {
     res = await getAuthorShareCode() || [];
     res2 = await getAuthorShareCode('https://raw.githubusercontent.com/1277002811/JDbot/master/shareCodes/pk.json') || [];
   }
