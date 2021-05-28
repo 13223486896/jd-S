@@ -41,8 +41,7 @@ $.inviteList = [  'ZXTKT019-aklCFpFgSm_WEil7LIFjRWn6-7zx55awQ','ZXTKT0124KQ2GkdM
 $.pkInviteList = [];
 $.secretpInfo = {};
 $.innerPkInviteList = [
-  '',
-];
+  '666666','9999'];
 $.hotFlag = false; //是否火爆
 if ($.isNode()) {
   Object.keys(jdCookieNode).forEach((item) => {
